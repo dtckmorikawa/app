@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project name="com.rules.pdf">
+  <target name="dita2rules.init">
+    <property location="${dita.plugin.com.rules.pdf.dir}/cfg" name="customization.dir" />
+    <property name="pdf2.i18n.skip" value="false" />
+    <property name="args.bookmark.style" value="COLLAPSED" />
+    <property name="args.fo.include.rellinks" value="none" />
+    <property name="dita.temp.dir" value="/var/www/html/dita-test/app/dita-ot-3.3.3/temp" />
+  </target>
+  <target depends="dita2rules.init, dita2pdf2" name="dita2rules" />
+</project>

@@ -1,0 +1,17 @@
+[2021-12-02 11:30:44] local.DEBUG: AdminBook>__construct is called  
+[2021-12-02 11:30:44] local.DEBUG: AdminBook>index is called  
+[2021-12-02 11:30:52] local.DEBUG: AdminBook>__construct is called  
+[2021-12-02 11:30:52] local.DEBUG: AdminBook>index is called  
+[2021-12-02 11:30:58] local.DEBUG: Booklist>bookview is called  
+[2021-12-02 11:32:09] local.DEBUG: Booklist>printbook is called  
+[2021-12-02 11:32:09] local.DEBUG: Booklist>printpdf is called  
+[2021-12-02 11:32:09] local.DEBUG: convert:xml is called  
+[2021-12-02 11:32:09] local.DEBUG: convert:xml is called  
+[2021-12-02 11:32:09] local.DEBUG: convert:xml is called  
+[2021-12-02 11:32:09] local.DEBUG: convert:xml is called  
+[2021-12-02 11:32:09] local.DEBUG: convert:xml is called  
+[2021-12-02 11:32:09] local.DEBUG: convert:xml is called  
+[2021-12-02 11:32:09] local.DEBUG: convert:xml is called  
+[2021-12-02 11:32:09] local.DEBUG: convert:xml is called  
+[2021-12-02 11:32:09] local.DEBUG: convert:makemap is called  
+[2021-12-02 11:32:09] local.DEBUG: ditaprint is called  

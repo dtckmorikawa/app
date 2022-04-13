@@ -1,0 +1,10 @@
+[2022-01-13 18:31:30] local.DEBUG: BlogEtcAdminController>edit_post is called  
+[2022-01-13 18:36:54] local.DEBUG: VideoUploadController>__construct is called  
+[2022-01-13 18:36:54] local.DEBUG: VideoUploadController>browse is called  
+[2022-01-13 18:48:48] local.DEBUG: BlogEtcAdminController>edit_post is called  
+[2022-01-13 18:54:18] local.DEBUG: AdminBook>__construct is called  
+[2022-01-13 18:54:18] local.DEBUG: AdminBook>index is called  
+[2022-01-13 18:54:29] local.DEBUG: Booklist>bookview is called  
+[2022-01-13 18:55:01] local.DEBUG: converter>search is called  
+[2022-01-13 18:55:06] local.DEBUG: converter>search is called  
+[2022-01-13 18:55:15] local.DEBUG: BlogEtcAdminController>edit_post is called  

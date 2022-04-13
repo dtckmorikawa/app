@@ -1,0 +1,11 @@
+[2022-01-14 12:37:35] local.DEBUG: Booklist>bookview is called  
+[2022-01-14 12:37:57] local.DEBUG: AdminBook>__construct is called  
+[2022-01-14 12:37:57] local.DEBUG: AdminBook>index is called  
+[2022-01-14 12:38:06] local.DEBUG: Booklist>bookview is called  
+[2022-01-14 12:38:55] local.DEBUG: Booklist>bookview is called  
+[2022-01-14 12:40:37] local.DEBUG: AdminBook>__construct is called  
+[2022-01-14 12:40:37] local.DEBUG: AdminBook>index is called  
+[2022-01-14 12:44:40] local.DEBUG: converter>search is called  
+[2022-01-14 12:44:47] local.DEBUG: AdminBook>__construct is called  
+[2022-01-14 12:44:47] local.DEBUG: AdminBook>index is called  
+[2022-01-14 12:45:15] local.DEBUG: converter>search is called  

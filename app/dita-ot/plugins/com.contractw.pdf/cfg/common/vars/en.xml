@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='utf-8'?>
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+    <!--added 2019/04/24-->
+	<variable id="Copy Year">2019</variable>
+	<variable id="Product Name">Daitec Dita</variable>
+	<variable id="Product Version">0.0001</variable>
+	<variable id="Published date">Published on</variable>
+	<variable id="Item number">Item #:</variable>
+
+    <variable id="Body first header">
+        <param ref-name="title" />
+        <param ref-name="chapter" />
+    </variable>
+    <variable id="Body odd header">
+        <param ref-name="heading" />
+    </variable>
+	
+	<!--edited 2019/04/24-->
+	<variable id="Body even header" >
+		<param ref-name="title" />
+	</variable>
+
+    <variable id="Preface odd header">
+        <param ref-name="title" />
+        <param ref-name="chapter" />
+    </variable>
+	<variable id="Preface even header" />
+    <variable id="Preface first header">
+		<param ref-name="title" />
+		<param ref-name="chapter" />
+	</variable>
+	<variable id="Toc odd header">Table of Contents
+		<!--<param ref-name="title" />
+		<param ref-name="chapter" />-->
+	</variable>
+	
+	<!--edited 2019/04/24-->
+	<variable id="Toc even header" >
+		<param ref-name="title" />
+	</variable>
+
+	<variable id="Index odd header">Index
+	</variable>
+
+	<!-- Heading prefix for chapter titles.-->
+  	<variable id="Chapter with number">Chapter <param ref-name="number"/></variable>
+	
+	<!--edited 2019/04/26-->
+	<variable id="Index even header" >
+		<param ref-name="title" />
+	</variable>
+
+    <!-- First Page Header -->
+	<variable id="First page header" >
+		<param ref-name="title" />
+	</variable>	
+
+	<variable id="Glossary odd header">
+		<param ref-name="title" />
+		<param ref-name="chapter" />
+	</variable>
+	<variable id="Glossary even header" />
+
+
+	<variable id="Body odd footer">
+		<param ref-name="pubdate" />Copyright &#169; <param ref-name="copyright"/>
+		<param ref-name="pagenum" />
+	</variable>
+
+	<variable id="Body even footer" >
+		<param ref-name="pubdate" />Copyright &#169;<param ref-name="copyright"/>
+		<param ref-name="pagenum" />
+	</variable>
+
+	<variable id="Body first footer">
+		<param ref-name="pubdate" />Copyright &#169;<param ref-name="copyright"/>
+		<param ref-name="pagenum" />
+	</variable>
+	
+	<variable id="Preface odd footer">
+		<!--<param ref-name="pubdate" />Copyright &#169;<param ref-name="copyright"/>-->
+		<!--<param ref-name="pagenum" />-->
+	</variable>
+
+	<variable id="Preface even footer" >
+		<!--<param ref-name="pubdate" />Copyright &#169;<param ref-name="copyright"/>-->
+		<!--<param ref-name="pagenum" />-->
+	</variable>
+
+	<variable id="Preface first footer">
+		<!--<param ref-name="pubdate" />Copyright &#169;<param ref-name="copyright"/>-->
+		<!--<param ref-name="pagenum" />-->
+	</variable>
+
+	<variable id="Toc odd footer">
+		<param ref-name="pubdate" />Copyright &#169;<param ref-name="copyright"/>
+		<param ref-name="pagenum" />
+	</variable>
+	
+	<variable id="Toc even footer" >
+		<param ref-name="pubdate" />Copyright &#169;<param ref-name="copyright"/>
+		<param ref-name="pagenum" />
+	</variable>
+
+	<variable id="Index odd footer">
+		<param ref-name="pubdate" />Copyright &#169;<param ref-name="copyright"/>
+		<param ref-name="pagenum" />
+	</variable>
+
+	<variable id="Index even footer" >
+		<param ref-name="pubdate" />Copyright &#169;<param ref-name="copyright"/>
+		<param ref-name="pagenum" />
+	</variable>
+	
+	<variable id="Glossary odd footer">
+		<param ref-name="pubdate" />Copyright &#169;<param ref-name="copyright"/>
+		<param ref-name="pagenum" />
+	</variable>
+
+	<variable id="Glossary even footer" />
+	<variable id="Ordered List Number 1">
+		<param ref-name="number" />. </variable>
+	<variable id="Ordered List Number 2">
+		<param ref-name="number" />. </variable>
+	<variable id="Ordered List Number 3">
+		<param ref-name="number" />. </variable>
+	<variable id="Ordered List Number 4">
+		<param ref-name="number" />. </variable>
+	<variable id="Ordered List Format 1">1</variable>
+	<variable id="Ordered List Format 2">1</variable>
+	<variable id="Ordered List Format 3">1</variable>
+	<variable id="Ordered List Format 4">1</variable>
+	<variable id="Unordered List bullet 1">•</variable>
+	<variable id="Unordered List bullet 2">•</variable>
+	<variable id="Unordered List bullet 3">•</variable>
+	<variable id="Unordered List bullet 4">•</variable>
+</vars>

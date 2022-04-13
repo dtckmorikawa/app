@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<langlist>
+    <lang filename="strings-en-us.xml" xml:lang="en"/>
+    <lang filename="strings-fr-fr.xml" xml:lang="fr"/>
+    <lang filename="strings-ja-jp.xml" xml:lang="jp"/>
+</langlist>

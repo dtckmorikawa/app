@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Yu Mincho";
+  src: local("Yu Mincho Regular");
+  font-weight: 500;
+}
+div.blog_body_menu{
+  height:70px;
+  margin: 0px 0px 0px 0px;
+  width: 90%;
+}
+div.blog_body_menu ul>li{
+  float: right; 
+  list-style: none; 
+  margin: 0px 5px 0px 0px;
+}
+div.blog_body_content{
+  margin: 0px 10px 0px 20px;
+  width: 90%;
+}
+div.blog_body_content *{
+  font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
+  color: #333333;
+}
+div.blog_body_content h1{
+  padding: 20px 0px 0px 0px;
+  font-weight: 700;
+}
+div.blog_body_content h1.blog_title{
+  padding: 20px 0px 0px 0px;
+  font-weight: 700;
+  text-align: center
+}
+div.blog_body_content h2{
+  padding: 100px 0px 10px 0px;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+div.blog_body_content h2.blog_subtitle{
+  padding: 20px 0px 50px 0px;
+  font-weight: 300;
+  font-size: 1.5rem;
+  text-align: center
+}
+div.blog_body_content h2.blog_subtitle:after{
+  font-weight: 700;
+  content : "\A\A\A\A\A\A\A\A 大興グループ \A\A 株式会社ダイテック\A\A\A\A\A";
+  white-space: pre;
+}
+div.blog_body_content h2{
+  padding: 20px 0px 10px 0px;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+div.blog_body_content h3{
+  padding: 20px 0px 10px 0px;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+div.blog_body_content h4{
+  font-weight: 700;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+div.blog_body_content h5{
+  padding: 10px 0px 0px 0px;
+  font-weight: 700;
+}
+div.blog_body_content table {
+  margin: 0px 0px 20px 10px;
+}
+div.blog_body_content table th>p{
+  font-size: 115%;
+  font-weight: 700;
+}
+div.blog_body_content p {
+  padding: 0px 0px 0px 20px;
+  font-size: 115%;
+}
+div.blog_body_content pre {
+  padding: 20px 0px 0px 0px;
+  font-size: 125%;
+  font-weight: 700;
+}
+div.blog_body_content ul {
+  list-style-type: disc;
+}
+div.blog_body_content strong {
+  font-size: 115%;
+}
+div.blog_body_content a:link {
+  color: blue;
+}
+div.blog_body_content a:hover {
+  color: red;
+}
+div.blog_body_content a:visited {
+  color: blueviolet;
+}
+
+/*TOC CSS*/
+#toc ul:before{
+  font-weight: 700;
+  font-size: 1.8em;
+  content : "目次";
+  white-space: pre;
+}
+#toc ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+#toc li {
+  margin-bottom: .4em;
+}
+#toc li.toc-h3 {
+  padding-left: 1em;
+}
+#toc a {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#toc li.toc-h2 a::before {
+  margin-right: .2em;
+}
+/*#toc li.toc-h3 a {
+  font-size: 1.2em;
+  font-weight: bold;
+}*/
+#toc li.toc-h3 a::before {
+  margin-right: .2em;
+}

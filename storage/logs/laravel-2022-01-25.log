@@ -1,0 +1,3 @@
+[2022-01-25 09:42:20] local.DEBUG: AdminBook>__construct is called  
+[2022-01-25 09:42:20] local.DEBUG: AdminBook>index is called  
+[2022-01-25 09:42:46] local.DEBUG: Booklist>bookview is called  

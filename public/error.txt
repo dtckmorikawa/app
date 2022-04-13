@@ -1,0 +1,1 @@
+sh: /var/www/html/dita-test/app/dita-ot-3.3.3/bin/dita: Permission denied
