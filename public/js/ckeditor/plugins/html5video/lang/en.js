@@ -1,0 +1,20 @@
+CKEDITOR.plugins.setLang( 'html5video', 'en', {
+    button: 'Insert HTML5 video',
+    title: 'HTML5 video',
+    infoLabel: '動画',
+    allowed: '動画のURL：mp4のみ',
+    urlMissing: '動画のURLを入力してください',
+    videoProperties: '動画のプロパティ',
+    upload: 'アップロード',
+    btnUpload: 'サーバーへアップロード',
+    advanced: 'アドバンス',
+    autoplay: '自動再生？',
+    allowdownload: 'ダウンロードを許可？',
+    advisorytitle: 'リンク先詳細',
+    yes: 'Yes',
+    no: 'No',
+    loop: 'ループ再生?',
+    responsive: '幅をレスポンシブにする',
+    controls: 'コントロールを表示',
+    poster: 'サムネイル（オプション）'
+} );

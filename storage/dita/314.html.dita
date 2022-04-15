@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"><topic xml:lang="ja-JP" id="dtc_1598317794">
+  <title>Book生成ツールでPDFを結合する</title>
+  <body><ol>
+	<li>
+	参照ボタンをクリックして、図面情報ZIPファイルを指定します。<br/>
+	<fig><image href="/var/www/html/webdita/public/blog_images/bookuse001-fullsize-fullsize.png"/></fig>
+	</li>
+	<li>
+	参照ボタンをクリックして、結合したPDFの出力先を指定します。<br/>
+	<fig><image href="/var/www/html/webdita/public/blog_images/bookuse002-fullsize-fullsize.png"/></fig>
+	</li>
+	<li>
+	参照ボアンをクリックして、結合に使用するカテゴリリストを指定します。<br/>
+	<fig><image href="/var/www/html/webdita/public/blog_images/bookuse003-fullsize-fullsize.png"/></fig>
+	</li>
+	<li>
+	参照ボタンをクリックして、結合に使用する結合リストを指定します。<br/>
+	<fig><image href="/var/www/html/webdita/public/blog_images/bookuse004-fullsize-fullsize.png"/></fig>
+	</li>
+	<li>
+	「Book作成」ボタンをクリックすると、PDFの結合が開始されます。<br/>
+	<fig><image href="/var/www/html/webdita/public/blog_images/bookuse005-fullsize-fullsize.png"/></fig>
+	</li>
+	<li>
+	PDFの結合が完了すると、出力先がポップアップで表示されます。<br/>
+	<fig><image href="/var/www/html/webdita/public/blog_images/bookcreationuse006-fullsize.png"/></fig>
+	</li>
+</ol>
+
+<p> </p>
+
+<ul>
+	<li>
+	PDFの結合を行うと、使用した各データのパスが記憶されます。<br/>
+	<fig><image href="/var/www/html/webdita/public/blog_images/bookuse007-fullsize-fullsize.png"/></fig>
+	</li>
+</ul>
+
+<p> </p>
+
+
+<p>画像をクリックするとブラウザが開き動画が再生されます</p><xref href="https://dtcmanual.com/blog_videos/1598317769-fullsize.mp4"><image href="/var/www/html/webdita/public/blog_videos/1598317769-fullsize.png"/></xref>
+
+
+<p> </p></body>
+</topic>

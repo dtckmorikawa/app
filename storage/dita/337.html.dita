@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"><topic xml:lang="ja-JP" id="dtc_1623635125">
+  <title>アラビア語初校チェック</title>
+  <body><p><b>最終PDFチェックリストを実施する</b></p>
+
+<p>通常の「PDFチェック&amp;最終チェックリスト」を利用してチェックを実施する。ただし、一部のプリフライトプロファイルや一括アクションに、アラビア語専用のがあるので、ご注意ください。</p>
+
+<p>\192.168.5.222\subaru\EyeSight資料(共通)\チェックリスト</p>
+
+<p>・_yymmdd_PDFチェック&amp;最終チェックリスト_v1.12_開発コード_仕向け.xlsx</p>
+
+<table><title>通常と異なるプロファイルやアクション</title><tgroup cols="2">
+	通常と異なるプロファイルやアクション
+	<thead>
+		<row rowsep="1">
+			<entry colsep="1">項目</entry>
+			<entry colsep="1">通常との差異</entry>
+		</row>
+	</thead>
+	<tbody>
+		<row rowsep="1">
+			<entry colsep="1">フォントチェック</entry>
+			<entry colsep="1">
+			<p>アラビア語フォントチェック.kfp</p>
+
+			<p>\\192.168.5.222\subaru\EyeSight資料(共通)\ツール\PDFプリフライトプロファイル</p>
+			</entry>
+		</row>
+		<row rowsep="1">
+			<entry colsep="1">プルーフ用アクション</entry>
+			<entry colsep="1">
+			<p>EyeSightアラビア語下版チェック.sequ</p>
+
+			<p>\\192.168.5.222\subaru\EyeSight資料(共通)\ツール\見開きチェック用アクション</p>
+			</entry>
+		</row>
+	</tbody>
+</tgroup></table>
+
+<p> </p></body>
+</topic>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"><topic xml:lang="ja-JP" id="dtc_1645662824">
+  <title>Go Docker Example</title>
+  <body><p># docker-compose.yml</p>
+
+<p>version: "3"</p>
+
+<p>services:</p>
+
+<p>  api:</p>
+
+<p>    container_name: todo-api</p>
+
+<p>    build:</p>
+
+<p>      context: .</p>
+
+<p>      dockerfile: ./Dockerfile-golang</p>
+
+<p>    ports:</p>
+
+<p>      - 4000:4000</p>
+
+<p>    depends_on:</p>
+
+<p>      - postgres</p>
+
+<p>      - redis</p>
+
+<p>    volumes:</p>
+
+<p>      - ./api:/api</p>
+
+<p> </p>
+
+<p>  postgres:</p>
+
+<p>    container_name: postgres</p>
+
+<p>    build:</p>
+
+<p>      context: .</p>
+
+<p>      dockerfile: ./Dockerfile-postgres</p>
+
+<p>    environment:</p>
+
+<p>      - POSTGRES_USER=postgres</p>
+
+<p>      - POSTGRES_PASSWORD=secret</p>
+
+<p>      - POSTGRES_DB=go_todos</p>
+
+<p>    ports:</p>
+
+<p>      - "5432:5432"</p>
+
+<p>    volumes:</p>
+
+<p>      - ./postgres_volume:/var/lib/postgresql/data</p>
+
+<p> </p>
+
+<p>  pgweb:</p>
+
+<p>    image: donnex/pgweb</p>
+
+<p>    restart: always</p>
+
+<p>    command: -s --bind=0.0.0.0 --listen=8080 --url postgresql://postgres:secret@postgres/go_todos?sslmode=disable</p>
+
+<p>    links:</p>
+
+<p>      - postgres:postgres</p>
+
+<p>    ports:</p>
+
+<p>      - "9232:8080"</p>
+
+<p>    depends_on:</p>
+
+<p>      - postgres</p>
+
+<p> </p>
+
+<p>  redis:</p>
+
+<p>    image: redis:6.2.6</p>
+
+<p>    ports:</p>
+
+<p>      - 6379:6379</p>
+
+<p>    volumes:</p>
+
+<p>      - ./redis_volume:/data</p>
+
+<p> </p>
+
+<p>  redis-commander:</p>
+
+<p>    container_name: redis-commander</p>
+
+<p>    hostname: redis-commander</p>
+
+<p>    image: rediscommander/redis-commander:latest</p>
+
+<p>    restart: always</p>
+
+<p>    environment:</p>
+
+<p>      - REDIS_HOSTS=local:redis:6379</p>
+
+<p>    ports:</p>
+
+<p>      - "8081:8081"</p>
+
+<p> </p>
+
+<p>volumes:</p>
+
+<p>  postgres_volume:</p>
+
+<p>  redis_volume:</p>
+
+<p> </p></body>
+</topic>

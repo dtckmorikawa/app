@@ -1,0 +1,73 @@
+<p>FULLTEXTを使った全文検索には２つの特殊モードがあります:</p>
+
+<ol>
+	<li>
+	<p>QUERY EXPANSION MODE</p>
+	</li>
+	<li>
+	<p>BOOLEAN MODE</p>
+	</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<h3><strong>QUERY EXPANSION MODE</strong></h3>
+
+<p>通常通り、検索語 &quot;database&quot; で全文検索した後、返ってきたレコードセットの最初の1-2個目から、関連語句をチョイスした上で、それらで再度全文検索を投げる... 合計2回のFULLTEXT検索が実行される模様。</p>
+
+<p>詳しくは<a href="http://dev.mysql.com/doc/refman/4.1/en/fulltext-query-expansion.html">公式マニュアルを参照</a>の事。</p>
+
+<p>&nbsp;</p>
+
+<h3><strong>BOOLEAN MODE</strong></h3>
+
+<p>v4.0.1にて追加。マッチ率の高い順でソート... という概念を省いて、単純に、より機械的に「これら語句を必ず含むレコード」や、「この語句を含んで、この語句を含まないレコード」を検索できるモード。</p>
+
+<p>特徴は以下の通り：</p>
+
+<ul>
+	<li>
+	<p><strong>50%制約が無い</strong><br />
+	全レコードの50%に検索語が含まれていても、それらすべてを返します。</p>
+	</li>
+	<li>
+	<p><strong>結果が近似値ソートされない</strong><br />
+	マッチ率うんぬんという概念は無くなります。単にヒットした順にレコードが返ります。</p>
+	</li>
+	<li>
+	<p><strong>キーワードが必須 &#39;+&#39;、キーワードを含まない &#39;-&#39; の特殊指示が使える</strong><br />
+	検索語の前に + や - をつける事で検索条件をコントロールできます。 このほかにも<a href="http://dev.mysql.com/doc/refman/4.1/en/fulltext-boolean.html">幾つかのキーワードが使えるようです</a>。</p>
+	</li>
+	<li>
+	<p><strong>ワイルドカード * を使った前方一致検索が可能</strong><br />
+	検索語の後ろに * をつけることで前方一致検索ができます。先頭に * をつけても後方一致検索にはならない点に注意。</p>
+	</li>
+	<li>
+	<p><strong>キーワードの最短・最長文字数制限は有効</strong></p>
+	</li>
+	<li>
+	<p><strong>stop words リストも有効</strong></p>
+	</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>使い方例） &quot;MySQL&quot; を含んで &quot;database&quot; を含まない</p>
+
+<p><strong>sql&gt; select * from hoge where match( myText ) against( &#39;+MySQL -database&#39; in boolean mode );</strong></p>
+
+<p>&nbsp;</p>
+
+<p>使い方例） ワイルドカード検索 &quot;dataほにゃらら&quot;</p>
+
+<p><strong>sql&gt; select * from hoge where match( myText ) against( &#39;data*&#39; in boolean mode );</strong></p>
+
+<p>&nbsp;</p>
+
+<p>※あと、使いどころが判りませんが、FULLTEXTインデックスを張っていないカラムに対しても、この BOOLEAN MODE の match ... against 検索は使えるそうです。</p>
+
+<p>その代わり激遅ですよ、とのこと。</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>

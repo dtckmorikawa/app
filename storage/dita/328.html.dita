@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"><topic xml:lang="ja-JP" id="dtc_1611894087">
+  <title>MACアドレスの調べ方</title>
+  <body><p><b>MACアドレス（物理アドレス）をWindowsマシンで調べる手順です。</b></p>
+
+<ol>
+	<li>タスクトレイの中のWiFiのアイコンをクリック<br/>
+	 </li>
+	<li>ネットワークとインターネットの設定をクリック<br/>
+	 </li>
+	<li>プロパティをクリック<br/>
+	<fig><image href="/var/www/html/webdita/public/blog_images/mac001-fullsize.png"/></fig><br/>
+	 </li>
+	<li>次に表示される画面を一番下までスクロールしてプロパティを参照する<br/>
+	 </li>
+	<li>物理アドレス（MAC）にある値がMACアドレスです。<br/>
+	<fig><image href="/var/www/html/webdita/public/blog_images/mac002-fullsize.png"/></fig></li>
+</ol>
+
+<p> </p>
+
+<p>終了</p></body>
+</topic>

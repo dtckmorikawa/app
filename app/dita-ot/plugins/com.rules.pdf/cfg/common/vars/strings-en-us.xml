@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--   
+This file is part of the DITA Open Toolkit project. 
+
+Copyright 2006 IBM Corporation
+
+See the accompanying LICENSE file for applicable license.
+-->
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+    <variable id="Unordered List bullet 1">•</variable>
+    <variable id="Unordered List bullet 2">-</variable>
+    <variable id="Unordered List bullet 3">*</variable>
+    <variable id="Unordered List bullet 4">+</variable>
+</vars>
