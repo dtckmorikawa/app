@@ -1,0 +1,10 @@
+<!DOCTYPE html [
+<!ENTITY nbsp "&#160;">
+<!ENTITY plusmn "&#177;">
+<!ENTITY sup2 "&#178;">
+<!ENTITY sup3 "&#179;">
+<!ENTITY ndash "&#8211;">
+<!ENTITY times "&#215;">
+<!ENTITY divide "&#247;">
+<!ENTITY rarr "&#8594;">
+]>

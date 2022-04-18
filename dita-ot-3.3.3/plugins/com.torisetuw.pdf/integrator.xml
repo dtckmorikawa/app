@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project name="com.torisetuw.pdf">
+  <target name="dita2torisetuw.init">
+    <property location="${dita.plugin.com.torisetuw.pdf.dir}/cfg" name="customization.dir" />
+    <property name="pdf2.i18n.skip" value="false" />
+    <property name="args.bookmark.style" value="COLLAPSED" />
+    <property name="args.fo.include.rellinks" value="none" />
+  </target>
+  <target depends="dita2torisetuw.init, dita2pdf2" name="dita2torisetuw" />
+</project>

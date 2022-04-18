@@ -1,0 +1,322 @@
+/* DITA Open Toolkit documentation style */
+
+/****************************************
+Basic fonts and typography
+****************************************/
+
+body {
+  background: white;
+  background: linear-gradient(to right, #eee 0%, #fff 300px);
+  color: #212529;
+  margin: 0;
+  padding: 1em;
+}
+
+/* ↓ header-coderef ↓ */
+.header {
+  font-size: 18pt;
+  margin: 0;
+  padding: 0 12px;
+}
+
+.header p {
+  color: #1d365d;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.header hr {
+  border: 0;
+  border-bottom: 1px solid #eee;
+  height: 0;
+}
+/* ↑ end-header-ref ↑ */
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+
+code,
+pre,
+samp,
+.cmdname,
+.codeph,
+.filepath,
+.msgnum,
+.option,
+.parmname {
+  color: #6c757d;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  font-size: 90%;
+}
+
+.codeblock .cmdname,
+.codeblock .filepath,
+.codeblock .msgnum,
+.codeblock .option,
+.codeblock .parmname,
+.codeblock .varname,
+pre code {
+  font-size: inherit;
+}
+
+/****************************************
+Headings
+****************************************/
+
+h1,
+h2,
+h3 {
+  color: #1d365d;
+  font-size: 12pt;
+  font-weight: bold;
+  margin-bottom: 0.75em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1em;
+  padding: 0;
+}
+
+h1 .filepath,
+h2 .filepath,
+h3 .filepath {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+h1 .filepath {
+  color: #1d365d;
+}
+
+.sectiontitle {
+  color: #1d365d;
+  font-weight: bold;
+}
+
+.topictitle1 {
+  margin-top: 1em;
+}
+
+/****************************************
+Basic identation, padding, and margins
+****************************************/
+
+main {
+  margin-left: 300px;
+}
+
+blockquote,
+li,
+p {
+  line-height: 125%;
+  margin-bottom: 0.75em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0.75em;
+  padding: 0;
+}
+
+dd {
+  line-height: 125%;
+  margin-bottom: 0.75em;
+  margin-top: 0.75em;
+}
+
+dl {
+  line-height: 125%;
+  margin-bottom: 0.75em;
+  margin-left: 2em;
+  margin-right: 0;
+  margin-top: 0.75em;
+  padding: 0;
+}
+
+ol,
+ul {
+  margin-bottom: 0.75em;
+  margin-left: 2em;
+  margin-right: 0;
+  margin-top: 0.75em;
+  padding: 0;
+}
+
+pre {
+  margin: 10px 0;
+  padding: 0;
+}
+
+/****************************************
+Block elements
+****************************************/
+
+.codeblock,
+.screen {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+/****************************************
+Figures
+****************************************/
+
+figcaption {
+  font-style: italic;
+}
+
+/****************************************
+In-line elements
+****************************************/
+
+.cmdname,
+.msgnum {
+  font-weight: bold;
+}
+
+/****************************************
+Links
+****************************************/
+
+a:link {
+  color: #3563ab;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #3563ab;
+}
+
+a:active,
+a:hover {
+  color: #1d365d;
+  text-decoration: underline;
+}
+
+.related-links {
+  color: #555;
+}
+
+.linklist {
+  margin-top: 1em;
+}
+
+/****************************************
+Notes
+****************************************/
+
+.note {
+  line-height: 125%;
+  margin-left: 2em;
+  margin-right: 0;
+  padding: 0;
+}
+
+.caution {
+  font-weight: bold;
+}
+
+/****************************************
+Tables
+****************************************/
+
+table,
+.table {
+  border-color: #dee2e6;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 90%;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding: 0.5rem;
+}
+
+tr {
+  border-color: #dee2e6;
+  padding: 0.5rem;
+}
+
+td {
+  border-color: #dee2e6;
+  padding: 0.5rem;
+}
+
+th {
+  background-color: #f5f5f5;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+caption,
+figcaption {
+  color: #6c757d;
+  padding: 1em 0;
+  text-align: left;
+}
+
+/****************************************
+Navigation
+****************************************/
+
+/* ↓ nav-coderef ↓ */
+nav[role='toc'] {
+  float: left;
+  width: 300px;
+}
+
+nav[role='toc'] li.active > a {
+  font-weight: bold;
+}
+/* ↑ end-nav-ref ↑ */
+
+nav[role='toc'] > ul {
+  margin-right: 2em;
+}
+
+nav[role='toc'] > ul li {
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+nav[role='toc'] > ul > li ul {
+  margin-bottom: 0.5em;
+  margin-left: 1.2em;
+  margin-top: 0.5em;
+}
+
+/****************************************
+Glossary
+****************************************/
+
+.glossAbbreviation,
+.glossAcronym {
+  color: #555;
+  font-size: 90%;
+  font-style: italic;
+  font-weight: normal;
+  margin-left: 2em;
+}
+
+.glossAbbreviation::before,
+.glossAcronym::before {
+  content: 'Abbreviation: “';
+}
+
+.glossAbbreviation::after,
+.glossAcronym::after {
+  content: '”';
+}
+
+/* Append video icon to DITA-OT Day links in related links and link lists (but not in page footers) */
+a.link[href*='dita-ot_day']::after,
+.link a[href*='dita-ot_day']::after {
+  display: inline;
+  content: '    ';
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="%233563ab" fill-rule="evenodd" d="M16 3.75a.75.75 0 00-1.136-.643L11 5.425V4.75A1.75 1.75 0 009.25 3h-7.5A1.75 1.75 0 000 4.75v6.5C0 12.216.784 13 1.75 13h7.5A1.75 1.75 0 0011 11.25v-.675l3.864 2.318A.75.75 0 0016 12.25v-8.5zm-5 5.075l3.5 2.1v-5.85l-3.5 2.1v1.65zM9.5 6.75v-2a.25.25 0 00-.25-.25h-7.5a.25.25 0 00-.25.25v6.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-4.5z"></path></svg>');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 6px;
+}

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+
+<!--Front Cover-->
+	<variable id="Copy Year">2019</variable>
+	<variable id="Product Name">VM-7  モニタリングシステム </variable>
+	<variable id="Product Version">VM-7B &amp; VM-7 </variable>
+	<variable id="Published date">Oct. 2014</variable>
+	<variable id="Revised date">Apr. 2017</variable>
+	<variable id="Manual Number">6G14-024 Rev.4 </variable>
+
+<!--Body Header-->
+    <variable id="Body first header">
+		<param ref-name="heading" />
+    </variable>
+    <variable id="Body odd header">
+		<param ref-name="heading" />
+    </variable>
+    <variable id="Body even header" >
+		<param ref-name="heading" />
+	</variable>
+
+<!--Preface Header-->
+    <variable id="Preface first header">
+		<param ref-name="title" />
+		<param ref-name="chapter" />
+	</variable>
+    <variable id="Preface odd header">
+        <param ref-name="heading" />
+    </variable>
+	<variable id="Preface even header">
+		<param ref-name="title" />
+	</variable>
+
+<!--TOC Header-->
+	<variable id="Toc odd header">目次</variable>
+    <variable id="Toc even header">目次</variable>
+
+<!--Index Header-->
+<variable id="Index odd header">
+<param ref-name="title" /> | <param ref-name="chapter" />
+</variable>
+<variable id="Index even header" />
+
+<!-- First Page Header -->
+<variable id="First page header" >
+	<param ref-name="title" />
+</variable>	
+
+<!--Glossary Header-->
+<variable id="Glossary odd header">
+<param ref-name="title" /> | <param ref-name="chapter" />
+</variable>
+<variable id="Glossary even header" />
+
+<!--Body Footer-->
+	<variable id="Body odd footer">
+		<!--<param ref-name="pubdate" />Copyright&#169; <param ref-name="copyright"/>-->
+		<param ref-name="pagenum" />
+	</variable>
+	<variable id="Body even footer" >
+		<!--<param ref-name="pubdate" />Copyright&#169;<param ref-name="copyright"/>-->
+		<param ref-name="pagenum" />
+	</variable>
+	<variable id="Body first footer">
+		<!--<param ref-name="pubdate" />Copyright&#169;<param ref-name="copyright"/>-->
+		<param ref-name="pagenum" />
+	</variable>
+
+<!--Preface Footer-->
+<variable id="Preface odd footer"/>
+<variable id="Preface even footer" />
+<variable id="Preface first footer"/>
+
+<!--TOC Footer-->
+	<variable id="Toc odd footer">
+		<!--<param ref-name="pubdate" />Copyright&#169;<param ref-name="copyright"/>-->
+		<param ref-name="pagenum" />
+	</variable>
+	<variable id="Toc even footer" >
+		<!--<param ref-name="pubdate" />Copyright&#169;<param ref-name="copyright"/>-->
+		<param ref-name="pagenum" />
+	</variable>
+
+<!--Index footer-->
+<variable id="Index odd footer"/>
+<variable id="Index even footer"/>
+
+<!--Glossary footer-->
+<variable id="Glossary odd footer"/>
+<variable id="Glossary even footer" />
+
+<!--Numbering ordered lists-->
+<variable id="Ordered List Number 1">
+<param ref-name="number" />. </variable>
+<variable id="Ordered List Number 2">
+<param ref-name="number" />. </variable>
+<variable id="Ordered List Number 3">
+<param ref-name="number" />. </variable>
+<variable id="Ordered List Number 4">
+<param ref-name="number" />. </variable>
+<variable id="Ordered List Format 1">1</variable>
+<variable id="Ordered List Format 2">1</variable>
+<variable id="Ordered List Format 3">1</variable>
+<variable id="Ordered List Format 4">1</variable>
+<variable id="Unordered List bullet 1">•</variable>
+<variable id="Unordered List bullet 2">•</variable>
+<variable id="Unordered List bullet 3">•</variable>
+<variable id="Unordered List bullet 4">•</variable>
+
+<!--Chapter Title-->
+<variable id="Table of Contents Chapter"> <param ref-name="number"/>  </variable>
+<variable id="Part with number"> <param ref-name="number"/> </variable>
+<variable id="Chapter with number"><param ref-name="number"/></variable>
+<variable id="Table of Contents Part"> <param ref-name="number"/> </variable>
+
+
+<!--Note Label Images-->
+  <!-- Image path to use for a note of "attention" type. -->
+  <variable id="attention Note Image Path">Configuration/OpenTopic/cfg/common/artwork/attention.jpg</variable>
+  <!-- Image path to use for a note of "caution" type. -->
+  <variable id="caution Note Image Path">Configuration/OpenTopic/cfg/common/artwork/caution.jpg</variable>
+  <!-- Image path to use for a note of "warning" type. -->
+  <variable id="warning Note Image Path">Configuration/OpenTopic/cfg/common/artwork/warning.jpg</variable>
+  
+  <!--Note label texts-->
+  <variable id="note_text">おしらせ：</variable>
+  
+</vars>

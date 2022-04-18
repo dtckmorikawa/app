@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project name="com.contract.pdf">
+  <target name="dita2contract.init">
+    <property location="${dita.plugin.com.contract.pdf.dir}/cfg" name="customization.dir" />
+    <property name="pdf2.i18n.skip" value="false" />
+    <property name="args.bookmark.style" value="COLLAPSED" />
+    <property name="args.fo.include.rellinks" value="none" />
+    </target>
+  <target depends="dita2contract.init, dita2pdf2" name="dita2contract" />
+</project>
